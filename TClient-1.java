@@ -13,7 +13,7 @@ public class TClient
         int port = Integer.parseInt(args[1]);
 
         System.out.println("Client starting - connecting to Host " + host + " at Port " + port);
-        System.out.println("Author: William Dunn - Dec 2017\n");
+        System.out.println("Author: William Dunn\n");
         System.out.println("Type 'help' for more information.\n");
 
         String command;
