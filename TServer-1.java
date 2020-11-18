@@ -55,7 +55,7 @@ public class TServer
                     + " \ttweet user - return the user's profile";
                 break;
             case "id":
-                temp = "Twitter Server Version 1.0\n" + "Written by William Dunn\n";
+                temp = "Twitter Server Version 1.2\n" + "Written by William Dunn";
                 break;
             case "host":
                 temp = "Server running on: " + ipAddr;
