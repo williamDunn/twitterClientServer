@@ -50,13 +50,12 @@ public class TServer
             switch (command1) {
             case "help":
                 temp = "Valid commands are:\n" + "\thelp - this command\n" + " \tid   - version/author(s) info \n"
-                    + " \thost - server's host \n" + " \tport – server’s port \n"
+                    + " \thost - server's host \n" + " \tport â€“ serverâ€™s port \n"
                     + " \ttweet user count - show the users last 'count' tweets\n"
                     + " \ttweet user - return the user's profile";
                 break;
             case "id":
-                temp = "Twitter Server Version 1.0\n" + "Written by w.dunn - December 6, 2017\n"
-                    + "You'll never have to wait for the good stuff...";
+                temp = "Twitter Server Version 1.0\n" + "Written by William Dunn\n";
                 break;
             case "host":
                 temp = "Server running on: " + ipAddr;
